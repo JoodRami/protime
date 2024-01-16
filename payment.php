@@ -1,0 +1,81 @@
+<DOCTYPE html>
+ <html lang= "en">
+ 
+    <head>
+     <meta charset="UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <title>Payment Method</title>
+    
+    <link rel="stylesheet" href="style1.css">
+</head>
+   
+    <body>
+    
+    <div class="container">
+    <div class="title">
+    <h4 >اختر طريقة الدفع<span style-="color: #6064b6;"></span> </h4>
+</div>
+<form action="#">
+<input type="radio" name="payment" id="visa">
+ <input type="radio" name="payment" id="mastercard">
+<input type="radio" name="payment" id= "paypal" >
+<input type="radio" name="payment" id="AMEX"> 
+
+<div class="category">
+    <label for="visa" class="visaMethod">
+    <div class="imgName">
+        <div class="imgContainer visa">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/800px-Visa_Inc._logo.svg.png
+            "
+            alt="">
+        </div>
+            <span class="name"> VISA </span>
+        </div>
+        <span class="check" ><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span>
+    </label>
+
+    
+    <label for="mastercard" class="mastercardMethod">
+    <div class="imgName">
+        <div class="imgContainer">
+            <img src="https://cdn.salla.sa/xYGbP/WdpLtuneX7I1mqL2VfsDIAJJa8uWVCtTkPwaaOZG.png"
+            alt="">
+        </div>
+            <span class="name"> Apple Pay </span>
+        </div>
+        <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span> 
+    </label> 
+
+    <label for="paypal" class="paypalMethod">
+        <div class="imgName">
+            <div class="imgContainer">
+                <img src="https://cdn.salla.sa/RgwWw/1WPmgml06yObvA0VCqmI6GHwIX3IiGMHQKGbySbr.png"
+                alt="">
+            </div>
+                <span class="name"> تمارا </span>
+            </div>
+            <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span> 
+        </label> 
+
+        
+        <label for="AMEX" class="amexMethod">
+            <div class="imgName">
+                <div class="imgContainer">
+                    <img src="https://cdn.salla.sa/VAXzW/dI9xK2KlR37PIBrdIMHG3Lv0Ews6FNFizffrTuua.jpg"
+                    alt="">
+                </div>
+                    <span class="name"> تمارا </span>
+                </div>
+                <span class="check"><i class="fa-solid fa-circle-check" style="color: #6064b6;"></i></span> 
+            </label> 
+
+
+
+</Form>
+</div>
+
+    </body> </html>
